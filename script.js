@@ -18,7 +18,7 @@ buttons.forEach(function(btn) {
     });
 });
 
-
+//              View                        //
 function UpdateView() {
 
     let chord = chordFactory(chordChoosedByUser);
@@ -28,5 +28,3 @@ function UpdateView() {
     chordTriade.innerHTML = chord.tonic + " - " + chord.third + " - " + chord.fifth;
 
 }
-
-
