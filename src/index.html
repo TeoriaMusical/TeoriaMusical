@@ -9,16 +9,36 @@
     <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="container-fluid">
+    <div class="jumbotron jumbotron-fluid" style="margin-bottom: 0px">
+      <div class="container">
+        <h1 class="display-3">Teoria Musical</h1>
+        <p class="lead">Como pensar sobre os sons que ouvimos?</p>
+        <hr class="my-2" />
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+      <ul class="navbar-nav">
+        <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">About</a></li>
+        <li class="nav-item"><a href="#" class="nav-link">Blog</a></li>
+      </ul>
+    </nav>
+
+    <main class="main container">
       <div class="chords">
         <button class="btn">C</button> <button class="btn">D</button>
         <button class="btn">E</button> <button class="btn">F</button>
         <button class="btn">G</button> <button class="btn">A</button>
         <button class="btn">B</button>
       </div>
-      <h1 id="chordTitle">Nome do Acorde:</h1>
+
+      <h1 id="chordTitle">
+        Selecione um acorde para exibir a tríade correspondente
+      </h1>
+
       <p id="TriadeOfTheChordChoosedByUser"></p>
-    </div>
+    </main>
 
     <script src="js/chords.js"></script>
     <script src="js/script.js"></script>
